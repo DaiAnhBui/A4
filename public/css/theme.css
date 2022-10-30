@@ -1,0 +1,143 @@
+.bg-light 
+{
+	margin:0 auto;
+	padding-left:20px;
+	padding-right:20px;
+    box-shadow: inset;
+    background-color: greenyellow;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.bg-light:hover {
+    background-color:yellow;
+    transition: 0.7s;
+    font-family: 'Kolker Brush', cursive;
+}
+
+html {
+    background-color:aquamarine;
+}
+
+body {
+    background-color:aliceblue;
+}
+
+.btn-primary {
+    background-color: yellow;
+    box-shadow: inset;
+    border-radius: 10px;
+
+}
+
+.btn-primary:hover {
+    background-color: cyan;
+    transition: 0.7s;
+}
+
+nav { 
+    height: 40px;
+    border: red solid 1px;
+    flex: 1;
+    text-align: right;
+    
+}
+
+nav ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0 0 0 -12px;
+	padding:0px;
+    display: inline-block;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    padding: 10px 12px 13px 12px;
+    line-height: 40px;
+    color:blue;
+    text-decoration: underline;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fasthand', cursive;
+    color: brown;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.nav-link:hover {
+    list-style-type:circle;
+    color: blue;
+    background-color: aqua;
+}
+
+tr:nth-child(odd) {
+    background-color: pink;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color:burlywood;
+    transition: 0.7s;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    nav ul  {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    nav ul li a {
+        color: aliceblue;
+    }
+}
+
+.title {
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+    text-decoration: underline;
+    color:#ff0000;
+}
+
+.item {
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
