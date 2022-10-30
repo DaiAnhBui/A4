@@ -40,7 +40,7 @@ app.get("/PartTimer", (req, res) =>
    
 
 // setup a 'home.html' to listen on the default url path
-app.get("/home.html", (req, res) => {
+app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "./views/home.html"));
 });
 
@@ -57,24 +57,24 @@ app.get("/employee/num", (req, res) =>
 });
 
 // setup a 'audio.html' to listen on the default url path
-app.get("/audio.html", (req, res) => {
+app.get("/audio", (req, res) => {
     res.sendFile(path.join(__dirname, "./views/audio.html"));
 });
 // setup a 'video.html' to listen on the default url path
-app.get("/video.html", (req, res) => {
+app.get("/video", (req, res) => {
     res.sendFile(path.join(__dirname, "./views/video.html"));
 });
 // setup a 'table.html' to listen on the default url path
-app.get("/table.html", (req, res) => {
+app.get("/table", (req, res) => {
     res.sendFile(path.join(__dirname, "./views/table.html"));
 });
 
 // setup a 'list.html' to listen on the default url path
-app.get("/list.html", (req, res) => {
+app.get("/list", (req, res) => {
     res.sendFile(path.join(__dirname, "./views/list.html"));
 });
 
-app.get("/storefront.html", (req, res) => {
+app.get("/storefront", (req, res) => {
     res.sendFile(path.join(__dirname, "./views/storefront.html"));
 });
 
